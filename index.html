@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="position.css">
+</head>
+<body>
+    <div class="button"> <div><button class="btnLogin">Login/SignUp</button></div> </div>
+    <div id="loginPage">
+        <div class="form bg1">
+            <div class="ear"></div>
+            <div class="ear1"></div>
+            <div class="login-bg">
+                    <form class="login">
+                        <input type="email" name="userid" placeholder="Enter email address" class="txt"></input>
+                        <input type="password" name="password" placeholder="Enter password" class="txt"></input>
+                        <button class="btn">Login</button>
+                        <button class="btn1">SignUp</button>
+                    </form>
+            </div>
+            <div class="lock">
+                <img src="img/lock img.png" width="340px" alt="lock">
+            </div>
+        </div>
+    </div>
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"</script></script>
+    <script>
+        $(document).ready(function(){
+          $(".button").click(function(){
+            $("#loginPage").toggle();
+          });
+        });
+    </script>
+</body>
+</html>
