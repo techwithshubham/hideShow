@@ -1,21 +1,21 @@
 *{margin: 0; padding: 0;}
-.button {
+.hs-btn-bg {
     height: 60px;
     width: 100%;
     background-color: #192734;
 }
-.btnLogin {
+.hs-btn {
     margin-top: 10px;
     margin-right: 20px;
     float: right;
     height: 40px;
     width: 10%;
 }
-.btnLogin:hover {
+.hs-btn:hover {
     background: #ff96ad;
     box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 200px #ff96ad;
 }
-.form{
+#login-page{
     width: 450px;
     height: 450px;
     background-color:rgb(44, 40, 40);
@@ -33,7 +33,7 @@
     right: 50px;
     bottom: 3px;
 }
-.login{
+form{
     width: 205px;
     height: 24.2vh;
     position: absolute;
@@ -58,7 +58,7 @@
     right: 0px;
     z-index: -1;
 }
-.txt{
+input{
     width: 200px;
     height: 25px;
     margin-top: 2px;
@@ -66,7 +66,7 @@
     border-radius: 5px;
     background-color: rgb(216, 213, 213);  
 }
-.btn{
+.login-btn{
     width: 180px;
     height: 25px;
     text-align: center;
@@ -75,22 +75,23 @@
     border-radius: 5px;
     background-color: #2f2bf5;
 }
-.btn:hover {
+.login-btn:hover {
     background: #ff96ad;
     box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 200px #ff96ad;
 }
-.btn1{
+.signup-btn{
     width: 180px;
     height: 25px;
     text-align: center;
     margin-top: 3px;
     margin-left: 10px;
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #ece9e9;
 }
 .lock{
     height: 210px;
     width: 150px;
     position: absolute;
-    left: 60px;
+    left: 154px;
+    top: 70px;
 }
